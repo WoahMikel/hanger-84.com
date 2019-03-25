@@ -15,6 +15,7 @@
   font-size: 20px;
   color: #818181;
   display: block;
+  background: url("/Button.png")
 }
 
 .sidebar a:hover {
@@ -26,6 +27,9 @@
   padding: 0px 10px;
 }
 
+#selected {
+background: url("/Button (Selected).png")
+}
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
