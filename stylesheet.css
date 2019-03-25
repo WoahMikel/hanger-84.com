@@ -10,10 +10,10 @@
 }
 
 .sidebar a {
-  padding: 6px 8px 6px 16px;
+  padding: 6px 16px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: #ffffff;
   display: block;
   background: url("/Button.png")
 }
@@ -30,6 +30,7 @@
 a.selected {
 background: url("/Button (Selected).png")
 }
+
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
