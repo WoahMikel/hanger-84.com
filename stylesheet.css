@@ -27,7 +27,7 @@
   padding: 0px 10px;
 }
 
-#selected {
+a.selected {
 background: url("/Button (Selected).png")
 }
 @media screen and (max-height: 450px) {
