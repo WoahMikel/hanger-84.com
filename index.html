@@ -8,14 +8,20 @@
     body {
     font-size: 100%;
     }
+    i {
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Lucida Console", Monaco, monospace;
+      font-size: 2.5em;
+    }
     a {
       text-decoration: none;
       color: #ffffff;
       font-family: "Lucida Console", Monaco, monospace;
       font-size: 2.5em;
-      text-align: right;
+      text-align: left;
     }
-    a:hover {
+    li:hover .child{
       text-decoration: none;
       color: #90ee90;
     }
@@ -39,19 +45,24 @@
   <div style="position: absolute; right: 30; top: 0;">
     <ul style="list-style-type: none;">
       <li>
-        <a href="/home"; class="fas fa-home"> Home</a>
+        <i class="fas fa-home"; style="float: left;"></i>
+        <a href="/sponsors";>Home</a>
       </li>
       <li>
-       <a href="/info"; class="fas fa-envelope"> Info</a>
+       <i class="fas fa-info"; style="float: left;"></i>
+       <a href="/sponsors";>Info</a>
       </li>
       <li>
-        <a href="/contact"; class="fas fa-envelope-open-text"> Contact</a>
+        <i class="fas fa-envelope-open-text"; style="float: left;"></i>
+        <a href="/sponsors";>Contact</a>
       </li>
       <li>
-        <a href="/store"; class="fas fa-shopping-bag"> Store</a>
+        <i class="fas fa-shopping-bag"; style="float: left;"></i>
+        <a href="/sponsors";>Store</a>
       </li>
       <li>
-        <a href="/sponsors"; class="fas fa-file-invoice-dollar"> Sponsors</a>
+        <i class="fas fa-file-invoice-dollar"; style="float: left;"></i>
+        <a href="/sponsors";>Sponsors</a>
       </li>
     </ul>
   </div>
